@@ -13,7 +13,6 @@
 		156ACE7422857A6C005B2A5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 156ACE7322857A6C005B2A5A /* Assets.xcassets */; };
 		156ACE7722857A6C005B2A5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 156ACE7522857A6C005B2A5A /* LaunchScreen.storyboard */; };
 		156ACE7A22857A6C005B2A5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 156ACE7922857A6C005B2A5A /* main.m */; };
-		156ACE8622857D95005B2A5A /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156ACE8522857D95005B2A5A /* test.swift */; };
 		E40D403AEF56E79B0484A640 /* Pods_OCDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 704D57D105296CC169B62020 /* Pods_OCDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,7 +29,6 @@
 		156ACE7922857A6C005B2A5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		156ACE8022857AED005B2A5A /* OCDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OCDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		156ACE8322857C73005B2A5A /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		156ACE8522857D95005B2A5A /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		704D57D105296CC169B62020 /* Pods_OCDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD4904EBB71DCAEFACA6EA52 /* Pods-OCDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCDemo.debug.xcconfig"; path = "Target Support Files/Pods-OCDemo/Pods-OCDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		DBAD05991E66E545D38C67FD /* Pods-OCDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCDemo.release.xcconfig"; path = "Target Support Files/Pods-OCDemo/Pods-OCDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -73,7 +71,6 @@
 				156ACE6B22857A6B005B2A5A /* AppDelegate.m */,
 				156ACE6D22857A6B005B2A5A /* ViewController.h */,
 				156ACE6E22857A6B005B2A5A /* ViewController.m */,
-				156ACE8522857D95005B2A5A /* test.swift */,
 				156ACE7022857A6B005B2A5A /* Main.storyboard */,
 				156ACE7322857A6C005B2A5A /* Assets.xcassets */,
 				156ACE7522857A6C005B2A5A /* LaunchScreen.storyboard */,
@@ -250,7 +247,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				156ACE6F22857A6B005B2A5A /* ViewController.m in Sources */,
-				156ACE8622857D95005B2A5A /* test.swift in Sources */,
 				156ACE7A22857A6C005B2A5A /* main.m in Sources */,
 				156ACE6C22857A6B005B2A5A /* AppDelegate.m in Sources */,
 			);

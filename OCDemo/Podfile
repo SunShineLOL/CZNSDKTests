@@ -7,5 +7,4 @@ target 'OCDemo' do
 
   # Pods for OCDemo
   pod 'KCFaseSDKTest', '~> 1.0.0'
-#pod 'KCFaseSDKTest', :path => '../KCFaseSDK/'
 end
