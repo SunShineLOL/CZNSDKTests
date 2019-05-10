@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name     = "KCFaseSDKTest"
-s.version  = "1.0.0"
+s.version  = "1.0.1"
 s.license  = "MIT"
 s.summary  = "KCFaseSDK a framework"
 s.homepage = "https://github.com/SunShineLOL/CZNSDKTests"
