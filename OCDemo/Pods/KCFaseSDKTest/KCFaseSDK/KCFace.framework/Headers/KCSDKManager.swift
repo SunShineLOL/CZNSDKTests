@@ -8,7 +8,7 @@
 
 import Foundation
 
-@objc public protocol KCSDKDelegate {
+@objc public protocol KCSDKDelegate: NSObjectProtocol {
     ///由客户端实现微信免密相关逻辑
     @objc optional func kcAccreditWXPay()
 }
@@ -22,7 +22,7 @@ public class KCSDKManager: NSObject{
     private var contractId: String?
     private var platform: String?
     private var project: String?
-    public weak var delegate: KCSDKDelegate?
+    @objc public weak var delegate: KCSDKDelegate?
     
    @objc public class var sharedInstances : KCSDKManager {
         return KCSDKManagerShareInstance
@@ -110,12 +110,12 @@ public class KCSDKManager: NSObject{
     /*
      *  查询用户平台消费记录
      *  ***参数***
-     *  pageSize
-     *  pageIndex
+     *  pageSize 1
+     *  pageIndex 10
      *
      *  ***返回***
-     *  "pageIndex": 0,
-     *  "pageSize": 0,
+     *  "pageIndex": 1,
+     *  "pageSize": 10,
      *  "totalCount": 0,
      *  "pageCount": 0,
      *      "data": {

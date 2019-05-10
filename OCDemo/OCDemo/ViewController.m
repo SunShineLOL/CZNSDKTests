@@ -7,7 +7,10 @@
 //
 
 #import "ViewController.h"
+#import <KCFace/KCFace-Swift.h>
+#import "OCDemo-Bridging-Header.h"
 #import <KCFace/KCFace.h>
+
 @interface ViewController ()<KCSDKDelegate>
 
 @end

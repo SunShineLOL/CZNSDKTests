@@ -209,7 +209,7 @@ SWIFT_CLASS("_TtC6KCFace20KCFaceViewController")
 
 
 SWIFT_PROTOCOL("_TtP6KCFace13KCSDKDelegate_")
-@protocol KCSDKDelegate
+@protocol KCSDKDelegate <NSObject>
 @optional
 /// 由客户端实现微信免密相关逻辑
 - (void)kcAccreditWXPay;
@@ -218,6 +218,7 @@ SWIFT_PROTOCOL("_TtP6KCFace13KCSDKDelegate_")
 
 SWIFT_CLASS("_TtC6KCFace12KCSDKManager")
 @interface KCSDKManager : NSObject
+@property (nonatomic, weak) id <KCSDKDelegate> _Nullable delegate;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) KCSDKManager * _Nonnull sharedInstances;)
 + (KCSDKManager * _Nonnull)sharedInstances SWIFT_WARN_UNUSED_RESULT;
 - (void)configSDK:(NSString * _Nonnull)app :(NSString * _Nullable)cus :(NSString * _Nullable)sub :(NSString * _Nullable)contractId :(NSString * _Nonnull)platform :(NSString * _Nonnull)project;
@@ -455,7 +456,7 @@ SWIFT_CLASS("_TtC6KCFace20KCFaceViewController")
 
 
 SWIFT_PROTOCOL("_TtP6KCFace13KCSDKDelegate_")
-@protocol KCSDKDelegate
+@protocol KCSDKDelegate <NSObject>
 @optional
 /// 由客户端实现微信免密相关逻辑
 - (void)kcAccreditWXPay;
@@ -464,6 +465,7 @@ SWIFT_PROTOCOL("_TtP6KCFace13KCSDKDelegate_")
 
 SWIFT_CLASS("_TtC6KCFace12KCSDKManager")
 @interface KCSDKManager : NSObject
+@property (nonatomic, weak) id <KCSDKDelegate> _Nullable delegate;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) KCSDKManager * _Nonnull sharedInstances;)
 + (KCSDKManager * _Nonnull)sharedInstances SWIFT_WARN_UNUSED_RESULT;
 - (void)configSDK:(NSString * _Nonnull)app :(NSString * _Nullable)cus :(NSString * _Nullable)sub :(NSString * _Nullable)contractId :(NSString * _Nonnull)platform :(NSString * _Nonnull)project;

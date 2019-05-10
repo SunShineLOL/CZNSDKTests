@@ -2,13 +2,13 @@ PODS:
   - Alamofire (4.8.2)
   - AlamofireImage (3.5.2):
     - Alamofire (~> 4.8)
-  - KCFaseSDKTest (1.0.0):
+  - KCFaseSDKTest (1.0.1):
     - AlamofireImage (~> 3.5)
     - SnapKit (~> 4.0.0)
   - SnapKit (4.0.1)
 
 DEPENDENCIES:
-  - KCFaseSDKTest (~> 1.0.0)
+  - KCFaseSDKTest (~> 1.0.1)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -20,9 +20,9 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
   AlamofireImage: 63cfe3baf1370be6c498149687cf6db3e3b00999
-  KCFaseSDKTest: 176fc3235865e444ab5f80f1dbc2fb7dd7fc8a5e
+  KCFaseSDKTest: db5b09bfbeef38bdb9032e45fa5338af687517a5
   SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
 
-PODFILE CHECKSUM: fd4a0aa017e68fb52606b58be27050d6df383739
+PODFILE CHECKSUM: b34716412f581fbe42c1cd4ceaa7265df09bc813
 
 COCOAPODS: 1.6.1
