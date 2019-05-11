@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import <KCFace/KCFace-Swift.h>
 #import "OCDemo-Bridging-Header.h"
-#import <KCFace/KCFace.h>
+#import "KCFace/KCFace-Swift.h"
 
 @interface ViewController ()<KCSDKDelegate>
 
@@ -34,8 +34,9 @@
     
 }
 - (void)btnAction{
+    
     KCSDKManager *manager = [KCSDKManager sharedInstances];
-    //manager.delegate = self;
+    manager.delegate = self;
     [manager configSDK:@"kechong" :@"2d08d3c1b7c14468ab14bf8aca454070" :@"" :@"" :@"kc" :@"kechong"];
     [manager showKCFace:self complete:^(BOOL isSuss, NSString * _Nonnull desc) {
         if (isSuss) {
