@@ -23,6 +23,6 @@ s.requires_arc = true
 #s.libraries = 'z', 'sqlite3', 'stdc++', 'iconv'
 s.platform = :ios, '9.0'
 s.swift_version = '5.0'
-s.dependency 'SnapKit', '~> 4.0.0'
-s.dependency 'AlamofireImage', '~> 3.5'
+#s.dependency 'SnapKit', '~> 4.0.0'
+#s.dependency 'AlamofireImage', '~> 3.5'
 end

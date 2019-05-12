@@ -6,5 +6,6 @@ target 'KCFaseSDKDemo' do
   use_frameworks!
 
   # Pods for KCFaseSDKDemo
-  pod 'KCFaseSDKTest', '~> 1.0.0'
+  #pod 'KCFaseSDKTest', '~> 1.0.0' 
+  pod 'KCFaseSDKTest', :path =>'../KCFaseSDK/' 	
 end
