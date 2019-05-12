@@ -8,10 +8,10 @@ s.author   = { "陈专念" => "443623074@qq.com" }
 s.social_media_url = "https://www.jianshu.com/u/6a0b2eef9af5"
 s.source   = { :git => "https://github.com/SunShineLOL/CZNSDKTests.git", :tag => "#{s.version}" }
 s.description = %{
-Test is a framework.
+我的SDKPodTest````
 }
-s.vendored_frameworks = 'KCFaseSDK/KCFace.framework'
-s.resource  = 'KCFaseSDK/KCFaceBundle.bundle'
+s.vendored_frameworks = 'KCFaseSDK/1.0.3/KCFace.framework'
+s.resource  = 'KCFaseSDK/1.0.3/KCFaceBundle.bundle'
 
 #s.resource_bundle = {
 #'Paramount' => ['KCFace/KCFace.bundle/*.*']
