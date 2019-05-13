@@ -10,8 +10,8 @@ s.source   = { :git => "https://github.com/SunShineLOL/CZNSDKTests.git", :tag =>
 s.description = %{
 我的SDKPodTest````
 }
-s.vendored_frameworks = 'KCFaseSDK/1.0.3/KCFace.framework'
-s.resource  = 'KCFaseSDK/1.0.3/KCFaceBundle.bundle'
+s.vendored_frameworks = '1.0.3/KCFace.framework'
+s.resource  = '1.0.3/KCFaceBundle.bundle'
 
 #s.resource_bundle = {
 #'Paramount' => ['KCFace/KCFace.bundle/*.*']

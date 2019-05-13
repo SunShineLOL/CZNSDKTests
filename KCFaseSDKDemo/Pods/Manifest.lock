@@ -2,15 +2,15 @@ PODS:
   - KCFaseSDKTest (1.0.3)
 
 DEPENDENCIES:
-  - KCFaseSDKTest (from `../KCFaseSDK/1.0.3/`)
+  - KCFaseSDKTest (from `../KCFaseSDK/KCFaseSDKTest.podspec`)
 
 EXTERNAL SOURCES:
   KCFaseSDKTest:
-    :path: "../KCFaseSDK/1.0.3/"
+    :podspec: "../KCFaseSDK/KCFaseSDKTest.podspec"
 
 SPEC CHECKSUMS:
-  KCFaseSDKTest: 1405ebf6939bf31d9dead6082bde4b1a736267db
+  KCFaseSDKTest: aaf8c2e8e147e9fc4fb20ab72b163b7449993d31
 
-PODFILE CHECKSUM: a3cae9a17c47cf8a4cd436544992d16adc6b95e7
+PODFILE CHECKSUM: 188a007592d3f90462b6c0fa6e7cc5bf65440023
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.7.0.rc.1

@@ -97,10 +97,10 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "${PODS_ROOT}/../../KCFaseSDK/KCFaceBundle.bundle"
+  install_resource "${PODS_ROOT}/KCFaseSDKTest/KCFaseSDK/1.0.3/KCFaceBundle.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "${PODS_ROOT}/../../KCFaseSDK/KCFaceBundle.bundle"
+  install_resource "${PODS_ROOT}/KCFaseSDKTest/KCFaseSDK/1.0.3/KCFaceBundle.bundle"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
