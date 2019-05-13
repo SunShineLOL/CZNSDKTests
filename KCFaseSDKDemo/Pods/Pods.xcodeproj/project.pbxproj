@@ -20,8 +20,8 @@
 
 /* Begin PBXBuildFile section */
 		71824B2706F00DAF0CA97AC18388ECE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		A6ACD381CEE2B92F689AD1AEC44DDC12 /* Pods-KCFaseSDKDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A80AB7E776B9CE61429AF59DBA2CB8DE /* Pods-KCFaseSDKDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA7623BCC38314CDC9DFCF761CB7B824 /* Pods-KCFaseSDKDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5113D9CBED81B7D47F92BCA0B0866466 /* Pods-KCFaseSDKDemo-dummy.m */; };
+		A6ACD381CEE2B92F689AD1AEC44DDC12 /* Pods-KCFaseSDKDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9D37E448848CFE0DDB50C96A5B72503 /* Pods-KCFaseSDKDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA7623BCC38314CDC9DFCF761CB7B824 /* Pods-KCFaseSDKDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC3D9764BA2A89BBF9FA1AB0CF73C84 /* Pods-KCFaseSDKDemo-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,21 +35,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05F6E9D86BDA2DC0167A71BEA15728DE /* KCFaceBundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = KCFaceBundle.bundle; path = KCFaseSDK/1.0.3/KCFaceBundle.bundle; sourceTree = "<group>"; };
-		1F31C325999A17364FBDE2601FBF8E78 /* Pods-KCFaseSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KCFaseSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		2334965813DDAE59F7305B75DC7DC2E2 /* Pods-KCFaseSDKDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KCFaseSDKDemo-resources.sh"; sourceTree = "<group>"; };
-		40C8769525D080B276AF4D4C85462AA1 /* Pods-KCFaseSDKDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KCFaseSDKDemo.modulemap"; sourceTree = "<group>"; };
-		5113D9CBED81B7D47F92BCA0B0866466 /* Pods-KCFaseSDKDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KCFaseSDKDemo-dummy.m"; sourceTree = "<group>"; };
-		60735B326C2C8D5682EA4AE6DF258104 /* KCFaseSDKTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KCFaseSDKTest.xcconfig; sourceTree = "<group>"; };
-		8CADD346C835477762690E153B7AD81D /* Pods-KCFaseSDKDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KCFaseSDKDemo-Info.plist"; sourceTree = "<group>"; };
+		03D534E7459E12E776AD1F0940F4B8E8 /* Pods-KCFaseSDKDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KCFaseSDKDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		0D19ECFBCA9A3A1F3A57A8B5F6CEBB18 /* Pods-KCFaseSDKDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KCFaseSDKDemo-Info.plist"; sourceTree = "<group>"; };
+		2F896B39CC49420882730FF8D44D61A9 /* KCFaseSDKTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KCFaseSDKTest.xcconfig; sourceTree = "<group>"; };
+		54D302BD99732CD7C213FF564784313B /* Pods-KCFaseSDKDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KCFaseSDKDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6EC3D9764BA2A89BBF9FA1AB0CF73C84 /* Pods-KCFaseSDKDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KCFaseSDKDemo-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A80AB7E776B9CE61429AF59DBA2CB8DE /* Pods-KCFaseSDKDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KCFaseSDKDemo-umbrella.h"; sourceTree = "<group>"; };
-		AE663460791477E98B1D7C86A70E88F0 /* Pods-KCFaseSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KCFaseSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
-		B7AABE11C856504B8891E1A82ACB0157 /* KCFace.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KCFace.framework; path = KCFaseSDK/1.0.3/KCFace.framework; sourceTree = "<group>"; };
-		C12BA29421D98A02AD94EA355453259A /* Pods-KCFaseSDKDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KCFaseSDKDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C2B4E8539E5B72827969564F87212180 /* Pods-KCFaseSDKDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KCFaseSDKDemo.modulemap"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D14177F11DA3B45AB07DA33ADB7F0AE6 /* Pods-KCFaseSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KCFaseSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D9D37E448848CFE0DDB50C96A5B72503 /* Pods-KCFaseSDKDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KCFaseSDKDemo-umbrella.h"; sourceTree = "<group>"; };
 		DE72CEE20A6E1B1CEB60135405CB4919 /* Pods_KCFaseSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KCFaseSDKDemo.framework; path = "Pods-KCFaseSDKDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1577968893BCC56AE5BEC91FC4243BD /* Pods-KCFaseSDKDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KCFaseSDKDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		F18830ABE7D6BA18EECF509475360CEC /* Pods-KCFaseSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KCFaseSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,10 +61,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0736AAE74B754CEA964F217C3D56F0D9 /* Targets Support Files */ = {
+		13D7CA3CB2D2EB85229CCF0A84F73AA7 /* Pods-KCFaseSDKDemo */ = {
 			isa = PBXGroup;
 			children = (
-				5D3BF3F410F09A6CF556F5C588580D00 /* Pods-KCFaseSDKDemo */,
+				C2B4E8539E5B72827969564F87212180 /* Pods-KCFaseSDKDemo.modulemap */,
+				54D302BD99732CD7C213FF564784313B /* Pods-KCFaseSDKDemo-acknowledgements.markdown */,
+				03D534E7459E12E776AD1F0940F4B8E8 /* Pods-KCFaseSDKDemo-acknowledgements.plist */,
+				6EC3D9764BA2A89BBF9FA1AB0CF73C84 /* Pods-KCFaseSDKDemo-dummy.m */,
+				0D19ECFBCA9A3A1F3A57A8B5F6CEBB18 /* Pods-KCFaseSDKDemo-Info.plist */,
+				D9D37E448848CFE0DDB50C96A5B72503 /* Pods-KCFaseSDKDemo-umbrella.h */,
+				F18830ABE7D6BA18EECF509475360CEC /* Pods-KCFaseSDKDemo.debug.xcconfig */,
+				D14177F11DA3B45AB07DA33ADB7F0AE6 /* Pods-KCFaseSDKDemo.release.xcconfig */,
+			);
+			name = "Pods-KCFaseSDKDemo";
+			path = "Target Support Files/Pods-KCFaseSDKDemo";
+			sourceTree = "<group>";
+		};
+		20A744857F1F3FD8C73E2BD827A5E5E9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				13D7CA3CB2D2EB85229CCF0A84F73AA7 /* Pods-KCFaseSDKDemo */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -80,38 +93,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		598116B8C2A35F8F6ECA78EC4A846F0D /* Support Files */ = {
+		77601373D8DDBB3B577196FEBDBD385B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				60735B326C2C8D5682EA4AE6DF258104 /* KCFaseSDKTest.xcconfig */,
+				2F896B39CC49420882730FF8D44D61A9 /* KCFaseSDKTest.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/KCFaseSDKTest";
 			sourceTree = "<group>";
 		};
-		5D3BF3F410F09A6CF556F5C588580D00 /* Pods-KCFaseSDKDemo */ = {
+		8054562E9F5ED7D26B21310772241149 /* KCFaseSDKTest */ = {
 			isa = PBXGroup;
 			children = (
-				40C8769525D080B276AF4D4C85462AA1 /* Pods-KCFaseSDKDemo.modulemap */,
-				C12BA29421D98A02AD94EA355453259A /* Pods-KCFaseSDKDemo-acknowledgements.markdown */,
-				F1577968893BCC56AE5BEC91FC4243BD /* Pods-KCFaseSDKDemo-acknowledgements.plist */,
-				5113D9CBED81B7D47F92BCA0B0866466 /* Pods-KCFaseSDKDemo-dummy.m */,
-				8CADD346C835477762690E153B7AD81D /* Pods-KCFaseSDKDemo-Info.plist */,
-				2334965813DDAE59F7305B75DC7DC2E2 /* Pods-KCFaseSDKDemo-resources.sh */,
-				A80AB7E776B9CE61429AF59DBA2CB8DE /* Pods-KCFaseSDKDemo-umbrella.h */,
-				1F31C325999A17364FBDE2601FBF8E78 /* Pods-KCFaseSDKDemo.debug.xcconfig */,
-				AE663460791477E98B1D7C86A70E88F0 /* Pods-KCFaseSDKDemo.release.xcconfig */,
+				77601373D8DDBB3B577196FEBDBD385B /* Support Files */,
 			);
-			name = "Pods-KCFaseSDKDemo";
-			path = "Target Support Files/Pods-KCFaseSDKDemo";
-			sourceTree = "<group>";
-		};
-		8F65DBDED6D3C136A44AE30785BCBD42 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B7AABE11C856504B8891E1A82ACB0157 /* KCFace.framework */,
-			);
-			name = Frameworks;
+			name = KCFaseSDKTest;
+			path = KCFaseSDKTest;
 			sourceTree = "<group>";
 		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
@@ -122,10 +119,10 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		A3B55EF32FD1DDAC534C1B43B7BA5ED0 /* Pods */ = {
+		B5CCEA3DD42EA8D4BDAA409AB883C299 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E8FCBDE85D317E8B95AD71751FDEE64A /* KCFaseSDKTest */,
+				8054562E9F5ED7D26B21310772241149 /* KCFaseSDKTest */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -135,18 +132,10 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				A3B55EF32FD1DDAC534C1B43B7BA5ED0 /* Pods */,
+				B5CCEA3DD42EA8D4BDAA409AB883C299 /* Pods */,
 				406A4DB7BC1D761E95420C000A6804C1 /* Products */,
-				0736AAE74B754CEA964F217C3D56F0D9 /* Targets Support Files */,
+				20A744857F1F3FD8C73E2BD827A5E5E9 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D1A30A001FD0119D060A5FD42893365B /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				05F6E9D86BDA2DC0167A71BEA15728DE /* KCFaceBundle.bundle */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -155,17 +144,6 @@
 				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E8FCBDE85D317E8B95AD71751FDEE64A /* KCFaseSDKTest */ = {
-			isa = PBXGroup;
-			children = (
-				8F65DBDED6D3C136A44AE30785BCBD42 /* Frameworks */,
-				D1A30A001FD0119D060A5FD42893365B /* Resources */,
-				598116B8C2A35F8F6ECA78EC4A846F0D /* Support Files */,
-			);
-			name = KCFaseSDKTest;
-			path = KCFaseSDKTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,7 +239,7 @@
 /* Begin XCBuildConfiguration section */
 		2687862E1E20B580A2E3687813FFC6B9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60735B326C2C8D5682EA4AE6DF258104 /* KCFaseSDKTest.xcconfig */;
+			baseConfigurationReference = 2F896B39CC49420882730FF8D44D61A9 /* KCFaseSDKTest.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -278,7 +256,7 @@
 		};
 		5FD31BBE12C05CB23565633F899B22D0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE663460791477E98B1D7C86A70E88F0 /* Pods-KCFaseSDKDemo.release.xcconfig */;
+			baseConfigurationReference = D14177F11DA3B45AB07DA33ADB7F0AE6 /* Pods-KCFaseSDKDemo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -441,7 +419,7 @@
 		};
 		E3241BA3C2DDD82115F691C985893078 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F31C325999A17364FBDE2601FBF8E78 /* Pods-KCFaseSDKDemo.debug.xcconfig */;
+			baseConfigurationReference = F18830ABE7D6BA18EECF509475360CEC /* Pods-KCFaseSDKDemo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -479,7 +457,7 @@
 		};
 		F1945D00EE5C57F7148C780C6CE2B3D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60735B326C2C8D5682EA4AE6DF258104 /* KCFaseSDKTest.xcconfig */;
+			baseConfigurationReference = 2F896B39CC49420882730FF8D44D61A9 /* KCFaseSDKTest.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
