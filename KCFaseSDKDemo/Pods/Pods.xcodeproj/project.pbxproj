@@ -20,8 +20,8 @@
 
 /* Begin PBXBuildFile section */
 		71824B2706F00DAF0CA97AC18388ECE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		A6ACD381CEE2B92F689AD1AEC44DDC12 /* Pods-KCFaseSDKDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCFA4C3B82D75B5B0F656B1C8084AAD /* Pods-KCFaseSDKDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA7623BCC38314CDC9DFCF761CB7B824 /* Pods-KCFaseSDKDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2B6BFBD796EFA30572E19C76461341 /* Pods-KCFaseSDKDemo-dummy.m */; };
+		A6ACD381CEE2B92F689AD1AEC44DDC12 /* Pods-KCFaseSDKDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8813444EC8DF5F970E9BF39A18415C95 /* Pods-KCFaseSDKDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA7623BCC38314CDC9DFCF761CB7B824 /* Pods-KCFaseSDKDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37EC4419A927D57C80AF0B2295C5CEFE /* Pods-KCFaseSDKDemo-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,22 +35,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		026514E627795DA8BBF2356DF7F5AE4E /* KCFaceBundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = KCFaceBundle.bundle; sourceTree = "<group>"; };
-		087E5901C73A6ECA98B6ABF5750D4BB1 /* Pods-KCFaseSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KCFaseSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		30BBE8531968F5132D76141907989932 /* Pods-KCFaseSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KCFaseSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
-		3C0039432D379EC7B9C5ACFCE8FAA93B /* Pods-KCFaseSDKDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KCFaseSDKDemo-resources.sh"; sourceTree = "<group>"; };
-		626B23E0811575C0541256511C52AA35 /* KCFaseSDKTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KCFaseSDKTest.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		79CF4532BE5382CD71C3B72BE5926E8C /* Pods-KCFaseSDKDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KCFaseSDKDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		8CCFA4C3B82D75B5B0F656B1C8084AAD /* Pods-KCFaseSDKDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KCFaseSDKDemo-umbrella.h"; sourceTree = "<group>"; };
-		92D27778DF714D0736615A63D2AA9E8D /* Pods-KCFaseSDKDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KCFaseSDKDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		37EC4419A927D57C80AF0B2295C5CEFE /* Pods-KCFaseSDKDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KCFaseSDKDemo-dummy.m"; sourceTree = "<group>"; };
+		5961F12BE6AF7EC75E40505531533F7A /* Pods-KCFaseSDKDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KCFaseSDKDemo-Info.plist"; sourceTree = "<group>"; };
+		5BEB3D68D2671C0DD9D2D2FDD3C7D73A /* Pods-KCFaseSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KCFaseSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		60303BDDCA8399E11D84246D33C42F9E /* Pods-KCFaseSDKDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KCFaseSDKDemo.modulemap"; sourceTree = "<group>"; };
+		8813444EC8DF5F970E9BF39A18415C95 /* Pods-KCFaseSDKDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KCFaseSDKDemo-umbrella.h"; sourceTree = "<group>"; };
+		9AC57A961C0A3394663B5F4EA29B005D /* Pods-KCFaseSDKDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KCFaseSDKDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A3E8518140EC460EBA2D78ECE3C67386 /* KCFace.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KCFace.framework; sourceTree = "<group>"; };
-		AD7119CC1130D90C658DF65FEE326882 /* KCFaseSDKTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KCFaseSDKTest.xcconfig; sourceTree = "<group>"; };
+		BC0AD66CECEE26F276B302F86DB22790 /* Pods-KCFaseSDKDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KCFaseSDKDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BC51EF3AA5ABE047575CE5E0C563C69A /* KCFaseSDKTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KCFaseSDKTest.xcconfig; sourceTree = "<group>"; };
+		BF42C6EB727AD590ADA4940D9E47C46F /* KCFaseSDKTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KCFaseSDKTest.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DE72CEE20A6E1B1CEB60135405CB4919 /* Pods_KCFaseSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KCFaseSDKDemo.framework; path = "Pods-KCFaseSDKDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF2B6BFBD796EFA30572E19C76461341 /* Pods-KCFaseSDKDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KCFaseSDKDemo-dummy.m"; sourceTree = "<group>"; };
-		F58CC0CBA500B992232B4C28835C3D45 /* Pods-KCFaseSDKDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KCFaseSDKDemo.modulemap"; sourceTree = "<group>"; };
-		F9D5E8290535A150F3D7207801409F66 /* Pods-KCFaseSDKDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KCFaseSDKDemo-Info.plist"; sourceTree = "<group>"; };
+		E9B662A467947EAE053FF533BADA1FF3 /* Pods-KCFaseSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KCFaseSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,10 +62,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0736AAE74B754CEA964F217C3D56F0D9 /* Targets Support Files */ = {
+		20A744857F1F3FD8C73E2BD827A5E5E9 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				50571721500AEF136EC0ECFBF560FE75 /* Pods-KCFaseSDKDemo */,
+				FCAA3F2AF4BEFB8A96F38F785E696E2A /* Pods-KCFaseSDKDemo */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -81,66 +78,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		43E341B9E65E92FADBEE1B83BBD7735F /* Resources */ = {
+		584C1DA6AD9531EB099315CAB18FF7E9 /* KCFaseSDKTest */ = {
 			isa = PBXGroup;
 			children = (
-				026514E627795DA8BBF2356DF7F5AE4E /* KCFaceBundle.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		50571721500AEF136EC0ECFBF560FE75 /* Pods-KCFaseSDKDemo */ = {
-			isa = PBXGroup;
-			children = (
-				F58CC0CBA500B992232B4C28835C3D45 /* Pods-KCFaseSDKDemo.modulemap */,
-				92D27778DF714D0736615A63D2AA9E8D /* Pods-KCFaseSDKDemo-acknowledgements.markdown */,
-				79CF4532BE5382CD71C3B72BE5926E8C /* Pods-KCFaseSDKDemo-acknowledgements.plist */,
-				EF2B6BFBD796EFA30572E19C76461341 /* Pods-KCFaseSDKDemo-dummy.m */,
-				F9D5E8290535A150F3D7207801409F66 /* Pods-KCFaseSDKDemo-Info.plist */,
-				3C0039432D379EC7B9C5ACFCE8FAA93B /* Pods-KCFaseSDKDemo-resources.sh */,
-				8CCFA4C3B82D75B5B0F656B1C8084AAD /* Pods-KCFaseSDKDemo-umbrella.h */,
-				087E5901C73A6ECA98B6ABF5750D4BB1 /* Pods-KCFaseSDKDemo.debug.xcconfig */,
-				30BBE8531968F5132D76141907989932 /* Pods-KCFaseSDKDemo.release.xcconfig */,
-			);
-			name = "Pods-KCFaseSDKDemo";
-			path = "Target Support Files/Pods-KCFaseSDKDemo";
-			sourceTree = "<group>";
-		};
-		56B440B446C1071E92C942FD828D2E7A /* KCFaseSDKTest */ = {
-			isa = PBXGroup;
-			children = (
-				6335405B02630811C086F51F17FFB74B /* Frameworks */,
-				D573FE2B84337B23BE462397319C4295 /* Pod */,
-				43E341B9E65E92FADBEE1B83BBD7735F /* Resources */,
-				8A60439AD12D1F9606DF38A9D0205952 /* Support Files */,
+				A015FC8539B46AAFE67988F09FC90472 /* Pod */,
+				A9F486C397C08849A6F4D64D357C67F4 /* Support Files */,
 			);
 			name = KCFaseSDKTest;
-			path = ../../KCFaseSDK;
-			sourceTree = "<group>";
-		};
-		6335405B02630811C086F51F17FFB74B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A3E8518140EC460EBA2D78ECE3C67386 /* KCFace.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		71EAA42D508555894D2FB2E432CF1AB3 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				56B440B446C1071E92C942FD828D2E7A /* KCFaseSDKTest */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		8A60439AD12D1F9606DF38A9D0205952 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				AD7119CC1130D90C658DF65FEE326882 /* KCFaseSDKTest.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../KCFaseSDKDemo/Pods/Target Support Files/KCFaseSDKTest";
+			path = ../../KCFaseSDK/1.0.3;
 			sourceTree = "<group>";
 		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
@@ -151,14 +96,39 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		A015FC8539B46AAFE67988F09FC90472 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BF42C6EB727AD590ADA4940D9E47C46F /* KCFaseSDKTest.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A9F486C397C08849A6F4D64D357C67F4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC51EF3AA5ABE047575CE5E0C563C69A /* KCFaseSDKTest.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../KCFaseSDKDemo/Pods/Target Support Files/KCFaseSDKTest";
+			sourceTree = "<group>";
+		};
+		ADBC1666C4B3174BBA35098AC8F51362 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				584C1DA6AD9531EB099315CAB18FF7E9 /* KCFaseSDKTest */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				71EAA42D508555894D2FB2E432CF1AB3 /* Development Pods */,
+				ADBC1666C4B3174BBA35098AC8F51362 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				406A4DB7BC1D761E95420C000A6804C1 /* Products */,
-				0736AAE74B754CEA964F217C3D56F0D9 /* Targets Support Files */,
+				20A744857F1F3FD8C73E2BD827A5E5E9 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -170,12 +140,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D573FE2B84337B23BE462397319C4295 /* Pod */ = {
+		FCAA3F2AF4BEFB8A96F38F785E696E2A /* Pods-KCFaseSDKDemo */ = {
 			isa = PBXGroup;
 			children = (
-				626B23E0811575C0541256511C52AA35 /* KCFaseSDKTest.podspec */,
+				60303BDDCA8399E11D84246D33C42F9E /* Pods-KCFaseSDKDemo.modulemap */,
+				BC0AD66CECEE26F276B302F86DB22790 /* Pods-KCFaseSDKDemo-acknowledgements.markdown */,
+				9AC57A961C0A3394663B5F4EA29B005D /* Pods-KCFaseSDKDemo-acknowledgements.plist */,
+				37EC4419A927D57C80AF0B2295C5CEFE /* Pods-KCFaseSDKDemo-dummy.m */,
+				5961F12BE6AF7EC75E40505531533F7A /* Pods-KCFaseSDKDemo-Info.plist */,
+				8813444EC8DF5F970E9BF39A18415C95 /* Pods-KCFaseSDKDemo-umbrella.h */,
+				E9B662A467947EAE053FF533BADA1FF3 /* Pods-KCFaseSDKDemo.debug.xcconfig */,
+				5BEB3D68D2671C0DD9D2D2FDD3C7D73A /* Pods-KCFaseSDKDemo.release.xcconfig */,
 			);
-			name = Pod;
+			name = "Pods-KCFaseSDKDemo";
+			path = "Target Support Files/Pods-KCFaseSDKDemo";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,7 +249,7 @@
 /* Begin XCBuildConfiguration section */
 		2687862E1E20B580A2E3687813FFC6B9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD7119CC1130D90C658DF65FEE326882 /* KCFaseSDKTest.xcconfig */;
+			baseConfigurationReference = BC51EF3AA5ABE047575CE5E0C563C69A /* KCFaseSDKTest.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -288,7 +266,7 @@
 		};
 		5FD31BBE12C05CB23565633F899B22D0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 30BBE8531968F5132D76141907989932 /* Pods-KCFaseSDKDemo.release.xcconfig */;
+			baseConfigurationReference = 5BEB3D68D2671C0DD9D2D2FDD3C7D73A /* Pods-KCFaseSDKDemo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -451,7 +429,7 @@
 		};
 		E3241BA3C2DDD82115F691C985893078 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 087E5901C73A6ECA98B6ABF5750D4BB1 /* Pods-KCFaseSDKDemo.debug.xcconfig */;
+			baseConfigurationReference = E9B662A467947EAE053FF533BADA1FF3 /* Pods-KCFaseSDKDemo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -489,7 +467,7 @@
 		};
 		F1945D00EE5C57F7148C780C6CE2B3D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD7119CC1130D90C658DF65FEE326882 /* KCFaseSDKTest.xcconfig */;
+			baseConfigurationReference = BC51EF3AA5ABE047575CE5E0C563C69A /* KCFaseSDKTest.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";

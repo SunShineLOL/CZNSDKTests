@@ -1,6 +1,6 @@
 {
   "name": "KCFaseSDKTest",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "summary": "KCFaseSDK a framework",
   "homepage": "https://github.com/SunShineLOL/CZNSDKTests",
@@ -10,11 +10,11 @@
   "social_media_url": "https://www.jianshu.com/u/6a0b2eef9af5",
   "source": {
     "git": "https://github.com/SunShineLOL/CZNSDKTests.git",
-    "tag": "1.0.2"
+    "tag": "1.0.3"
   },
-  "description": "Test is a framework.",
-  "vendored_frameworks": "KCFace.framework",
-  "resources": "KCFaceBundle.bundle",
+  "description": "我的SDKPodTest````",
+  "vendored_frameworks": "KCFaseSDK/1.0.3/KCFace.framework",
+  "resources": "KCFaseSDK/1.0.3/KCFaceBundle.bundle",
   "requires_arc": true,
   "platforms": {
     "ios": "9.0"
