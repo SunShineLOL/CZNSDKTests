@@ -8,10 +8,10 @@ s.author   = { "陈专念" => "443623074@qq.com" }
 s.social_media_url = "https://www.jianshu.com/u/6a0b2eef9af5"
 s.source   = { :git => "https://github.com/SunShineLOL/CZNSDKTests.git", :tag => "#{s.version}" }
 s.description = %{
-我的SDKPodTest````
+Test is a framework.
 }
-s.vendored_frameworks = '/KCFaseSDK/KCFace.framework'
-s.resource  = '/KCFaseSDK/KCFaceBundle.bundle'
+s.vendored_frameworks = 'KCFace.framework'
+s.resource  = 'KCFaceBundle.bundle'
 
 #s.resource_bundle = {
 #'Paramount' => ['KCFace/KCFace.bundle/*.*']
@@ -23,6 +23,6 @@ s.requires_arc = true
 #s.libraries = 'z', 'sqlite3', 'stdc++', 'iconv'
 s.platform = :ios, '9.0'
 s.swift_version = '5.0'
-#s.dependency 'SnapKit', '~> 4.0.0'
-#s.dependency 'AlamofireImage', '~> 3.5'
+s.dependency 'SnapKit', '~> 4.0.0'
+s.dependency 'AlamofireImage', '~> 3.5'
 end
