@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,7 +13,7 @@
 		156ACE7422857A6C005B2A5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 156ACE7322857A6C005B2A5A /* Assets.xcassets */; };
 		156ACE7722857A6C005B2A5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 156ACE7522857A6C005B2A5A /* LaunchScreen.storyboard */; };
 		156ACE7A22857A6C005B2A5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 156ACE7922857A6C005B2A5A /* main.m */; };
-		15760B852286BE23008CE338 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15760B842286BE23008CE338 /* Tests.swift */; };
+		15D590D8228AAE2D0009219C /* OCDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D590D7228AAE2D0009219C /* OCDemo.swift */; };
 		E40D403AEF56E79B0484A640 /* Pods_OCDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 704D57D105296CC169B62020 /* Pods_OCDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,8 +30,8 @@
 		156ACE7922857A6C005B2A5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		156ACE8022857AED005B2A5A /* OCDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OCDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		156ACE8322857C73005B2A5A /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		15760B842286BE23008CE338 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		15760B862286BE65008CE338 /* KCFace.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KCFace.framework; path = Pods/KCFaseSDKTest/KCFaseSDK/KCFace.framework; sourceTree = "<group>"; };
+		15D590D7228AAE2D0009219C /* OCDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCDemo.swift; sourceTree = "<group>"; };
 		704D57D105296CC169B62020 /* Pods_OCDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD4904EBB71DCAEFACA6EA52 /* Pods-OCDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCDemo.debug.xcconfig"; path = "Target Support Files/Pods-OCDemo/Pods-OCDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		DBAD05991E66E545D38C67FD /* Pods-OCDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCDemo.release.xcconfig"; path = "Target Support Files/Pods-OCDemo/Pods-OCDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 				156ACE6B22857A6B005B2A5A /* AppDelegate.m */,
 				156ACE6D22857A6B005B2A5A /* ViewController.h */,
 				156ACE6E22857A6B005B2A5A /* ViewController.m */,
-				15760B842286BE23008CE338 /* Tests.swift */,
+				15D590D7228AAE2D0009219C /* OCDemo.swift */,
 				156ACE7022857A6B005B2A5A /* Main.storyboard */,
 				156ACE7322857A6C005B2A5A /* Assets.xcassets */,
 				156ACE7522857A6C005B2A5A /* LaunchScreen.storyboard */,
@@ -116,7 +116,6 @@
 				156ACE6422857A6B005B2A5A /* Frameworks */,
 				156ACE6522857A6B005B2A5A /* Resources */,
 				D30764FFF2041EC8F64526D5 /* [CP] Embed Pods Frameworks */,
-				BAC24BD6F00FCEC6924F785A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,28 +173,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		BAC24BD6F00FCEC6924F785A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OCDemo/Pods-OCDemo-resources.sh",
-				"${PODS_ROOT}/KCFaseSDKTest/KCFaseSDK/KCFaceBundle.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/KCFaceBundle.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OCDemo/Pods-OCDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		D1EDFDDFC8EC6616841EC543 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -224,20 +201,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OCDemo/Pods-OCDemo-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
-				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-OCDemo/Pods-OCDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-OCDemo/Pods-OCDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -252,8 +220,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				156ACE6F22857A6B005B2A5A /* ViewController.m in Sources */,
-				15760B852286BE23008CE338 /* Tests.swift in Sources */,
 				156ACE7A22857A6C005B2A5A /* main.m in Sources */,
+				15D590D8228AAE2D0009219C /* OCDemo.swift in Sources */,
 				156ACE6C22857A6B005B2A5A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -169,6 +169,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import CoreGraphics;
+@import Foundation;
 @import ObjectiveC;
 @import UIKit;
 #endif
@@ -225,9 +226,50 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) KCSDKManager
 /// 更新微信免密代扣协议
 - (void)updateContractId:(NSString * _Nullable)contractId complete:(void (^ _Nonnull)(BOOL))complete;
 - (void)showKCFace:(UIViewController * _Nonnull)vc complete:(void (^ _Nullable)(BOOL, NSString * _Nonnull))complete;
-- (void)payRecords:(NSInteger)pageSize :(NSInteger)pageIndex complete:(void (^ _Nullable)(BOOL, id _Nullable))complete;
+- (void)payRecords:(NSInteger)pageSize :(NSInteger)pageIndex complete:(void (^ _Nullable)(BOOL, NSDictionary<NSString *, id> * _Nullable))complete;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
+/// The task delegate is responsible for handling all delegate callbacks for the underlying task as well as
+/// executing all operations attached to the serial operation queue upon task completion.
+SWIFT_CLASS("_TtC6KCFace14KCTaskDelegate")
+@interface KCTaskDelegate : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -416,6 +458,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import CoreGraphics;
+@import Foundation;
 @import ObjectiveC;
 @import UIKit;
 #endif
@@ -472,9 +515,50 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) KCSDKManager
 /// 更新微信免密代扣协议
 - (void)updateContractId:(NSString * _Nullable)contractId complete:(void (^ _Nonnull)(BOOL))complete;
 - (void)showKCFace:(UIViewController * _Nonnull)vc complete:(void (^ _Nullable)(BOOL, NSString * _Nonnull))complete;
-- (void)payRecords:(NSInteger)pageSize :(NSInteger)pageIndex complete:(void (^ _Nullable)(BOOL, id _Nullable))complete;
+- (void)payRecords:(NSInteger)pageSize :(NSInteger)pageIndex complete:(void (^ _Nullable)(BOOL, NSDictionary<NSString *, id> * _Nullable))complete;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
+/// The task delegate is responsible for handling all delegate callbacks for the underlying task as well as
+/// executing all operations attached to the serial operation queue upon task completion.
+SWIFT_CLASS("_TtC6KCFace14KCTaskDelegate")
+@interface KCTaskDelegate : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

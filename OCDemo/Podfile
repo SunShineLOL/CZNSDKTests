@@ -6,5 +6,5 @@ target 'OCDemo' do
   use_frameworks!
 
   # Pods for OCDemo
-  pod 'KCFaseSDKTest', '~> 1.0.1'
+  pod 'KCFaseSDKTest', '~> 1.0.4'
 end

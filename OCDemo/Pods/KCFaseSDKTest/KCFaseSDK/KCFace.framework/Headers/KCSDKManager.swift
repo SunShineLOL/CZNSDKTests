@@ -27,6 +27,7 @@ public class KCSDKManager: NSObject{
    @objc public class var sharedInstances : KCSDKManager {
         return KCSDKManagerShareInstance
     }
+    
     /*
      *  app    string
      *  cus    string
@@ -37,12 +38,13 @@ public class KCSDKManager: NSObject{
      */
     @objc public func configSDK(_ app: String,_ cus: String?, _ sub: String?, _ contractId: String?, _ platform:String, _ project:String){
         self.app = app
-        self.cus = cus != nil ? cus : ""
-        self.sub = sub != nil ? sub : ""
-        self.contractId = contractId != nil ? contractId : ""
+        self.cus = cus ?? ""
+        self.sub = sub ?? ""
+        self.contractId = contractId ?? ""
         self.platform = platform
         self.project = project
     }
+    
     ///获取传入SDK的参数
     @objc func getSDKInfo() -> [String : Any] {
         return ["cus_":["cus":cus,"app":app,"sub":sub,"contractId":contractId],
@@ -128,7 +130,7 @@ public class KCSDKManager: NSObject{
      *      }
      *  ***END***
      */
-    @objc public func payRecords(_ pageSize: Int, _ pageIndex: Int, complete:((_ bool: Bool, _ res: AnyObject?) -> Void)? = nil ) {
+    @objc public func payRecords(_ pageSize: Int, _ pageIndex: Int, complete:((_ bool: Bool, _ res: [String : AnyObject]?) -> Void)? = nil ) {
         var p = KCSDKManager.sharedInstances.getSDKInfo()
         p.updateValue(pageSize, forKey: "pageSize")
         p.updateValue(pageIndex, forKey: "pageIndex")
