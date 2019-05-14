@@ -8,5 +8,5 @@ target 'KCFaseSDKDemo' do
   # Pods for KCFaseSDKDemo
   #pod 'KCFaseSDKTest', '~> 1.0.0' 
 #  pod 'KCFaseSDKTest', :path =>'../KCFaseSDK/1.0.3/' 	
-pod 'KCFaseSDKTest', :podspec => '../KCFaseSDK/KCFaseSDKTest.podspec'
+#pod 'KCFaseSDKTest', :podspec => '../KCFaseSDK/KCFaseSDKTest.podspec'
 end
