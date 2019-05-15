@@ -24,6 +24,7 @@
 		157B9B2422856A5100EBBC06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		157B9B2722856A5100EBBC06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		157B9B2922856A5100EBBC06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1582481D228BEB1900998F27 /* KCFaseSDKTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = KCFaseSDKTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		58EAC27E118E4BBD1620B16E /* Pods_KCFaseSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KCFaseSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63D7BBC697B8850403FA153E /* Pods-KCFaseSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KCFaseSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-KCFaseSDKDemo/Pods-KCFaseSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,6 +84,7 @@
 		EFA9D38AFCE9F457C5445652 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1582481D228BEB1900998F27 /* KCFaseSDKTest.framework */,
 				58EAC27E118E4BBD1620B16E /* Pods_KCFaseSDKDemo.framework */,
 			);
 			name = Frameworks;
