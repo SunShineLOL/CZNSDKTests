@@ -4,6 +4,14 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Chrysan.nib/objects-11.0+.nib</key>
+		<data>
+		LW5MJdq9IzvGR0XyAq+7z9sPyiQ=
+		</data>
+		<key>Chrysan.nib/runtime.nib</key>
+		<data>
+		zGbajyLtzJ1ua1sswXdAiDTUiMQ=
+		</data>
 		<key>Headers/KCFace-Swift.h</key>
 		<data>
 		rzor7wsU0EIsbBJ7HEqpk1HGZRY=
@@ -14,7 +22,7 @@
 		</data>
 		<key>Headers/KCSDKManager.swift</key>
 		<data>
-		1Zq5Z6RAcT8KYP1n+22rCi7Xngo=
+		jXE2yXscqDQp+revC3T5WD5OdPM=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -43,6 +51,28 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Chrysan.nib/objects-11.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LW5MJdq9IzvGR0XyAq+7z9sPyiQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			dikXfaor0lXwRI2tnnAlHN18Rb19OCe2yThT1SbsmJc=
+			</data>
+		</dict>
+		<key>Chrysan.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zGbajyLtzJ1ua1sswXdAiDTUiMQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			bXpiapfGwbjea5E6FVmu3wsLILxmGxswtJHoINy+ovw=
+			</data>
+		</dict>
 		<key>Headers/KCFace-Swift.h</key>
 		<dict>
 			<key>hash</key>
@@ -69,11 +99,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1Zq5Z6RAcT8KYP1n+22rCi7Xngo=
+			jXE2yXscqDQp+revC3T5WD5OdPM=
 			</data>
 			<key>hash2</key>
 			<data>
-			2txW0jvBFr9PAtWN4UhboeyRkM5VJB1eZGYhoNBE23c=
+			vaaUJeC8+ATqtpEHtQxsIIxYmsf9OfL5kwj7sLbeNb8=
 			</data>
 		</dict>
 		<key>Modules/KCFace.swiftmodule/i386.swiftdoc</key>
