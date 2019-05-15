@@ -96,7 +96,7 @@
 		5117884FB263945E7F9CDCC1A58269E6 /* Pods-KCFaseSDKDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KCFaseSDKDemo-Info.plist"; sourceTree = "<group>"; };
 		55AA8EB52369B556B4A58E233107C022 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
 		586F3B3F3B424016FB307E1366CD92FD /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
-		5AF7346A1A9C8A4690674D914BDD58BA /* KCFaseSDKTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KCFaseSDKTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AF7346A1A9C8A4690674D914BDD58BA /* KCFaseSDKTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KCFaseSDKTest.framework; path = KCFaseSDKTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FABC37D03CC66F34EEB710D777195E5 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
 		6500C7106E3FB1FFD6B899829F265D04 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Photos.framework; sourceTree = DEVELOPER_DIR; };
 		6D826D858A2E23E32B5EA90A2450B0D0 /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
@@ -108,11 +108,11 @@
 		833D4228A9BC5F04BEE7456BDF7D2D57 /* KCFaseSDKTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KCFaseSDKTest.xcconfig; sourceTree = "<group>"; };
 		83DF1EC4998416E8A74699770328DA39 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
 		884F17255362A86353676E39FC46821E /* KCFaceBundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = KCFaceBundle.bundle; path = KCFaseSDK/KCFaceBundle.bundle; sourceTree = "<group>"; };
-		8C5E5E91486478CF7042279E7FD467CF /* Pods_KCFaseSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KCFaseSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C5E5E91486478CF7042279E7FD467CF /* Pods_KCFaseSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KCFaseSDKDemo.framework; path = "Pods-KCFaseSDKDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91EB728EDAD266BB17AAAD6F7903C569 /* Pods-KCFaseSDKDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KCFaseSDKDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		96300E01183A44A6B7D0060C4B9F4C09 /* Pods-KCFaseSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KCFaseSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		99F4927B2C603F7ED54969E6E351647A /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FAD9ECC48F9B8C17D5B5058EF52FDB9 /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
 		A0EE860495CD69BBC846C1459D20009F /* KCFaseSDKTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KCFaseSDKTest-Info.plist"; sourceTree = "<group>"; };
 		AFA71182BEDB72B91FCE47B4E5A7CD8E /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
@@ -123,7 +123,7 @@
 		B8DC477165237B4306F850039E222187 /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
 		BB40CE88D1A8EDF9FE884FAF31627FAC /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
 		BDE7A299FBD7BDCF9120C6330921149E /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
-		BF0F2E034D079FDD23DEBCFA2CAE6934 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF0F2E034D079FDD23DEBCFA2CAE6934 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF65320E801F950860D4D7E259B999D3 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
 		D2827B5F2B6816B9FEC33839489429C5 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
 		D5BF49B4D1598A06E071D1476DB4363B /* KCFaseSDKTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KCFaseSDKTest-dummy.m"; sourceTree = "<group>"; };
@@ -207,6 +207,7 @@
 				FC2AA3B1D757611D08295B195EB668D7 /* UILayoutSupport+Extensions.swift */,
 				DF80C8715A28BE4E97B8D988CB38F348 /* Support Files */,
 			);
+			name = SnapKit;
 			path = SnapKit;
 			sourceTree = "<group>";
 		};
@@ -295,6 +296,7 @@
 				2D2D0812D67EF0B5C09F86FAD023111F /* Resources */,
 				F362AA6030348E005F1619C208DE4552 /* Support Files */,
 			);
+			name = KCFaseSDKTest;
 			path = KCFaseSDKTest;
 			sourceTree = "<group>";
 		};
@@ -437,7 +439,6 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
