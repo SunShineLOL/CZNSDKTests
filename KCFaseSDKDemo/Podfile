@@ -9,6 +9,6 @@ target 'KCFaseSDKDemo' do
   #pod 'KCFaseSDKTest', '~> 1.0.0' 
 #  pod 'KCFaseSDKTest', :path =>'../KCFaseSDK/1.0.3/' 	
 #pod 'KCFaseSDKTest', :podspec => '../KCFaseSDK/KCFaseSDKTest.podspec'
-  pod 'KCFaseSDKTest', '~> 1.0.5'
+#pod 'KCFaseSDKTest', '~> 1.0.5'
   pod 'SnapKit'
 end

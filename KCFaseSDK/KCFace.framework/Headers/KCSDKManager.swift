@@ -70,6 +70,16 @@ public class KCSDKManager: NSObject{
      *  block bool true:启动成功,false启动失败
      */
     @objc public func showKCFace(_ vc: UIViewController, complete:((_ bool: Bool, _ desc: String) -> Void)? = nil ) {
+        if let b = kcGetBundle(bundleName: "KCFace", podName: "KCFaseSDKTest"){
+            print("0---\(b)")
+        }else{
+            print("0---没有获取到bundle")
+        }
+        if let b = kcBundle(){
+            print("0-1 ---\(b)")
+        }else{
+            print("0-1 ---没有获取到bundle")
+        }
         if let image = kcBundleImage(name: "kcBack_icon") {
             print("1---\(image)")
         }else{

@@ -1,20 +1,16 @@
 PODS:
-  - KCFaseSDKTest (1.0.5)
   - SnapKit (5.0.0)
 
 DEPENDENCIES:
-  - KCFaseSDKTest (~> 1.0.5)
   - SnapKit
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - KCFaseSDKTest
     - SnapKit
 
 SPEC CHECKSUMS:
-  KCFaseSDKTest: 7bfc08e290dc242a30a666a6f279f43c19739473
   SnapKit: fd22d10eb9aff484d79a8724eab922c1ddf89bcf
 
-PODFILE CHECKSUM: 9344283475ca1e057867a071c20ae1d02c80dec0
+PODFILE CHECKSUM: d025904338bf077b62cb69900f932e8af244aa48
 
 COCOAPODS: 1.7.0.rc.1
