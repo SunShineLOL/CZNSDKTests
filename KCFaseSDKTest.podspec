@@ -14,7 +14,7 @@ s.vendored_frameworks = 'KCFaseSDK/*.framework'
 s.resource  = 'KCFaseSDK/*.bundle'
 s.source_files = 'KCFaseSDK/*.swift'
 
-s.frameworks = 'Photos'
+#s.frameworks = 'Photos'
 s.requires_arc = true
 s.platform = :ios, '9.0'
 s.swift_version = '5.0'
