@@ -70,10 +70,10 @@ public class KCSDKManager: NSObject{
      *  block bool true:启动成功,false启动失败
      */
     @objc public func showKCFace(_ vc: UIViewController, complete:((_ bool: Bool, _ desc: String) -> Void)? = nil ) {
-        UIApplication.shared.keyWindow?.chrysan.show()
+        //UIApplication.shared.keyWindow?.chrysan.show()
         KCApis.init()
             .checkUserInfo(paramer: KCSDKManager.sharedInstances.getSDKInfo(), complete: { (user, bool, desc) -> (Void) in
-                UIApplication.shared.keyWindow?.chrysan.hide()
+                //UIApplication.shared.keyWindow?.chrysan.hide()
                 var d = "SDK启动成功:\(desc ?? "")"
                 var type = 1
                 if bool == true {
