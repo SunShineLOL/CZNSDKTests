@@ -1,6 +1,0 @@
-framework module KCFaseSDKTest {
-  umbrella header "KCFaseSDKTest-umbrella.h"
-
-  export *
-  module * { export * }
-}
