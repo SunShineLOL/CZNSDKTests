@@ -85,7 +85,7 @@ class ViewController: UIViewController,KCSDKDelegate,UITextFieldDelegate {
         if let text = self.textView.text {
             UserDefaults.standard.set(text, forKey: "_cus")
             UserDefaults.standard.synchronize()
-            KCSDKManager.sharedInstances.configSDK("kechong", "2d08d3c1b7c14468ab14bf8aca454070", "", "", "kc", "kechong")
+            KCSDKManager.sharedInstances.configSDK("kechong", "\(cus)\(text)", "", "", "kc", "kechong")
             KCSDKManager.sharedInstances.delegate = self
             KCSDKManager.sharedInstances.showKCFace(self) { (bool, desc) in
                 if bool == true {
